@@ -19,5 +19,10 @@ Page initiale:
 (next up>)
 click boutton pour procéder à des calculs et afficher des graphiques (navigation). 
 
-docs pour les prochaines phases: 
+**Documentation pour les prochaines phases:**
 - https://nicegui.io/documentation/section_pages_routing#api_responses
+- https://nicegui.io/documentation
+- https://nicegui.io/documentation/section_page_layout
+- https://nicegui.io/documentation/column
+- https://nicegui.io/documentation/input#clearable
+- ...
