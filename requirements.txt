@@ -1,0 +1,3 @@
+numpy==2.3.2
+matpotlib==3.10.3
+nicegui==2.21.1
