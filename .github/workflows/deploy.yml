@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Deploying on render
         run: |
-          curl -X POST \
-            "https://api.render.com/deploy/srv-${{ secrets.RENDER_ID }}" \
+          curl -X POST https://api.render.com/v1/services/${{ secrets.RENDER_ID }}/deploys \
             -H "Authorization: Bearer ${{ secrets.RENDER_KEY }}" \
-            -H "Accept: application/json"
+            -H "Accept: application/json" \
+            -d '{}'
