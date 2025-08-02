@@ -24,4 +24,4 @@ def go_to_bugdet_page(nom: str):
     budget(nom)
     footer()
 
-ui.run()
+ui.run(favicon="📊", title="Gestionnaire de Budget")
